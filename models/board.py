@@ -4,9 +4,16 @@ class Board:
 
     def draw_board(self):
         """
-        Draw the board of Tic-Tac-Toe game
+        Draw the board of Tic-Tac-Toe game.
+        It will print the 3x3 grid of the game with "X", "O", or " ".
         """
-
+        print("-----")
+        for row in self.grid:
+            print("|", end=" ")
+            print(" | ".join(row), end=" ")
+            print("|")
+            print("-----")
+    
     def update_board(self, row: int, col: int, symbol: str) -> bool:
         """
         Update the game board based on location selected by player
