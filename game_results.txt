@@ -1,0 +1,8 @@
+Move 1: Player X placed on (0, 0)
+Move 2: Player X placed on (0, 1)
+Move 3: Player X placed on (0, 2)
+Player X wins!
+Move 1: Player X placed on (0, 0)
+Move 2: Player X placed on (0, 1)
+Move 3: Player X placed on (0, 2)
+Player X wins!
